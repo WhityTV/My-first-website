@@ -1,0 +1,86 @@
+.h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+::before{
+    content: ''; 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url("chess-background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.10;
+    }
+
+.all{
+    font-size: .90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 97, 97, 0.75);
+    border: 4px outset;
+    border-color: gold;
+}
+
+h2{
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 97, 97, 0.75);
+    border: 4px outset;
+    border-color: gold;
+}
+
+ul {
+    list-style: url("chess-queen-regular.svg");
+    list-style-position: outside;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgba(0, 97, 97, 0.75);
+    border: 2px double;
+    border-color: gold;
+}
+
+ol{
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 97, 97, 0.75);
+    border: 4px double;
+    border-color: gold;
+}
+
+footer{
+    background-image: url(footer-selfie.png);
+    size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+}
